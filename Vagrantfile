@@ -12,7 +12,7 @@ Vagrant::Config.run do |config|
 
   # Forward guest port 8080 to host port 4568
   #config.vm.forward_port 8080, 4568
-  config.vm.forward_port 27017, 27117 
-  config.vm.forward_port 28017, 28117
+  config.vm.forward_port 27017, 27017 
+  config.vm.forward_port 28017, 28017
 end
 
